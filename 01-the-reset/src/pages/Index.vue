@@ -2,12 +2,12 @@
   <Layout>
 
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="Example image" src="~/favicon.png" width="135" />
+    <g-image alt="Example image" src="/images/nasa_250x250.jpg" width="135" />
 
-    <h1>Hello, world!</h1>
+    <h1>Howdy! My name is Mitchell Gritts</h1>
 
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
+      a wildlife ecologist, data analyst, and developer based in Reno, NV.
     </p>
   </Layout>
 </template>
@@ -15,7 +15,7 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Hello, world!'
+    title: '🤠 Howdy'
   }
 }
 </script>
