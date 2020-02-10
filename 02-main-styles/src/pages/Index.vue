@@ -1,14 +1,17 @@
 <template>
   <Layout>
 
-    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="Example image" src="/images/nasa_250x250.jpg" width="135" />
+    <section class="main">
+      <g-image class="main__img img--round" alt="Example image" src="/images/nasa_250x250.jpg" />
 
-    <h1>Howdy! My name is Mitchell Gritts</h1>
+      <div class="main__text">
+        <h1>Howdy! My name is Mitchell Gritts</h1>
+        <p>
+          a wildlife ecologist, data analyst, and developer based in Reno, NV.
+        </p>
+      </div>
+    </section>
 
-    <p>
-      a wildlife ecologist, data analyst, and developer based in Reno, NV.
-    </p>
   </Layout>
 </template>
 
@@ -20,5 +23,26 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.main {
+  height: 66.6vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__img {
+  width: 180px;
+  height: 180px;
+  margin-bottom: 24px;
+}
+
+.main__text {
+  text-align: center;
+}
+
+.img--round {
+  border-radius: 100%;
+}
 </style>
