@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout class="content">
     <h1>About Me</h1>
     <p>
       I am a wildlife ecologist based in Reno, Nevada.
@@ -118,3 +118,10 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.content {
+  width: 560px;
+  margin: 36px auto;
+}
+</style>
