@@ -80,6 +80,7 @@
     colebat, aliqua movit Aeacide pervenerat mille coget parte superest? Putat ver
     plumas imber et praecordia tectus.</p>
     </blockquote>
+    <h3>Lorem ipsum dolor sit amet</h3>
     <p>Ore omnia tendebat! Fato temporis tenuique e quamvis, turis: sit videtur que nec
     innuptaeque Aeolidae quo Aiaci procorum.</p>
     <ul>
@@ -87,6 +88,7 @@
     <li>Mihi metus adesset</li>
     <li>Diffudit medio</li>
     </ul>
+    <h4>Lorem ipsum dolor sit</h4>
     <p>Verbis lascivitque arma, dabat ad mallem vivosque parentum contemne procul. Meis
     tota, <strong>notissima lanianda nefas</strong> Phoebus sit Tartara, <em>Phinea</em>. Tonitribus
     Thybridis parte. Sed inque Alcyone Dianae deriguisse fugacem; arvo partes templo
@@ -121,7 +123,7 @@ export default {
 
 <style scoped>
 .content {
-  width: 560px;
+  width: 40em;
   margin: 36px auto;
 }
 </style>
