@@ -1,3 +1,19 @@
+:root {
+  --bg-color: #f3f4f6;
+  --text-color: #292C38;
+  --gray: #6b7393;
+  --grey: #6b7393;
+  --accent-color: #34E084;
+}
+
+:root[theme='dark'] {
+  --bg-color: #292C38;
+  --text-color: #f3f4f6;
+  --gray: #6b7393;
+  --grey: #6b7393;
+  --accent-color: #34E084;
+}
+
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -8,6 +24,8 @@ html {
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  background-color: var(--bg-color);
+  color: var(--text-color);
   margin: 0;
   padding: 0;
   font-weight: normal;
